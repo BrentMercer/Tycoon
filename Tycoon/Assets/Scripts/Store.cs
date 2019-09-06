@@ -9,8 +9,9 @@ public class Store : MonoBehaviour {
 
     public Text storeCountText;
     public Text currentBalanceText;
-    public Text buyNowPricing;
+    public Text buyNowButtonPrice;
     public Slider progressSlider;
+    public Button buyButton;
 
     public int storeCount;
     private float storeCost;
@@ -30,10 +31,11 @@ public class Store : MonoBehaviour {
         money.CurrentBalance = 5.00f;
         currentBalanceText.text = money.CurrentBalance.ToString("C2");
         storeCost = baseStoreCost;
-        buyNowPricing.text = "Buy " + storeCost.ToString("C2");
+        buyNowButtonPrice.text = "Buy " + storeCost.ToString("C2");
     }
-	
-	void Update () {
+
+    void Update()
+    {
         if (startTimer)
         {
             currentTimer += Time.deltaTime;
@@ -49,7 +51,16 @@ public class Store : MonoBehaviour {
             }
         }
         progressSlider.value = currentTimer / storeTimer;
-    } 
+
+        if (storeCost < money.CurrentBalance)
+        {
+            buyButton.GetComponent<Image>().color = Color.green;
+        }
+        else
+        {
+            buyButton.GetComponent<Image>().color = Color.white;
+        }
+    }
 
     public void BuyStoreOnClick()
     {
@@ -64,7 +75,7 @@ public class Store : MonoBehaviour {
             money.CurrentBalance -= storeCost;
             currentBalanceText.text = money.CurrentBalance.ToString("C2");
             storeCost = baseStoreCost * Mathf.Pow(storeMultiplier, storeCount);
-            buyNowPricing.text = "Buy " + storeCost.ToString("C2");
+            buyNowButtonPrice.text = "Buy " + storeCost.ToString("C2");
         }
     }
 
