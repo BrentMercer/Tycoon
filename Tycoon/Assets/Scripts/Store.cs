@@ -5,70 +5,67 @@ using UnityEngine.UI;
 
 public class Store : MonoBehaviour {
 
-    private int StoreCount;
-    
-    private float CurrentBalance;
-    private float BaseStoreCost;
+    public MoneySO money;
 
-    public Text StoreCountText;
-    public Text CurrentBalanceText;
-    public Slider ProgressSlider;
+    public Text storeCountText;
+    public Slider progressSlider;
+    public Text currentBalanceText;
 
-    private float StoreTimer = 4f;
-    private float CurrentTimer = 0;
-    private float BaseStoreProfit;
+    public int storeCount;
+    public float storeTimer;
+    private float currentTimer = 0;
+    public float baseStoreCost;
+    public float baseStoreProfit;
 
-    private bool StartTimer;
+    private bool startTimer;
+    public bool storeManager;
 
     void Start () {
-        StoreCount = 1;
-        CurrentBalance = 5.00f;
-        CurrentBalanceText.text = CurrentBalance.ToString("C2");
-        BaseStoreCost = 1.50f;
-        BaseStoreProfit = .5f;
-        StartTimer = false;
+        startTimer = false;
+        money.CurrentBalance = 5.00f;
+        currentBalanceText.text = money.CurrentBalance.ToString("C2");
     }
 	
 	void Update () {
-        if (StartTimer)
+        if (startTimer)
         {
-            CurrentTimer += Time.deltaTime;
-            if (CurrentTimer > StoreTimer)
+            currentTimer += Time.deltaTime;
+            if (currentTimer > storeTimer)
             {
-                Debug.Log("Reset start timer.");
-                StartTimer = false;
-                CurrentTimer = 0f;
-                CurrentBalance += BaseStoreProfit * StoreCount;
-                CurrentBalanceText.text = CurrentBalance.ToString("C2");
+                if (!storeManager)
+                {
+                    startTimer = false;
+                }
+                currentTimer = 0f;
+                money.CurrentBalance += baseStoreProfit * storeCount;
+                currentBalanceText.text = money.CurrentBalance.ToString("C2");
             }
         }
-        ProgressSlider.value = CurrentTimer / StoreTimer;
-
+        progressSlider.value = currentTimer / storeTimer;
     } 
 
     public void BuyStoreOnClick()
     {
-        if (BaseStoreCost > CurrentBalance)
+        if (baseStoreCost > money.CurrentBalance)
         {
             return;
         }
         else
         {
-            CurrentBalance -= BaseStoreCost;
-            StoreCount++;
-            StoreCountText.text = StoreCount.ToString();
-            CurrentBalanceText.text = CurrentBalance.ToString("C2");
+            storeCount++;
+            storeCountText.text = storeCount.ToString();
+            Debug.Log(baseStoreCost);
+            money.CurrentBalance -= baseStoreCost;
+            currentBalanceText.text = money.CurrentBalance.ToString("C2");
         }
     }
 
     public void StoreOnClick()
     {
-        Debug.Log("Clicked the store.");
-        if (!StartTimer)
+        if (!startTimer && storeCount > 0)
         {
-            StartTimer = true;
+            startTimer = true;
         }
-        
     }
 
 }
