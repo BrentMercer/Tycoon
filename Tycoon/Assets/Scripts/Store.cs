@@ -8,14 +8,19 @@ public class Store : MonoBehaviour {
     public MoneySO money;
 
     public Text storeCountText;
-    public Slider progressSlider;
     public Text currentBalanceText;
+    public Text buyNowPricing;
+    public Slider progressSlider;
 
     public int storeCount;
+    private float storeCost;
+    public float baseStoreCost;
+    public float storeMultiplier;
+    public float baseStoreProfit;
+
     public float storeTimer;
     private float currentTimer = 0;
-    public float baseStoreCost;
-    public float baseStoreProfit;
+
 
     private bool startTimer;
     public bool storeManager;
@@ -24,6 +29,8 @@ public class Store : MonoBehaviour {
         startTimer = false;
         money.CurrentBalance = 5.00f;
         currentBalanceText.text = money.CurrentBalance.ToString("C2");
+        storeCost = baseStoreCost;
+        buyNowPricing.text = "Buy " + storeCost.ToString("C2");
     }
 	
 	void Update () {
@@ -46,7 +53,7 @@ public class Store : MonoBehaviour {
 
     public void BuyStoreOnClick()
     {
-        if (baseStoreCost > money.CurrentBalance)
+        if (storeCost > money.CurrentBalance)
         {
             return;
         }
@@ -54,9 +61,10 @@ public class Store : MonoBehaviour {
         {
             storeCount++;
             storeCountText.text = storeCount.ToString();
-            Debug.Log(baseStoreCost);
-            money.CurrentBalance -= baseStoreCost;
+            money.CurrentBalance -= storeCost;
             currentBalanceText.text = money.CurrentBalance.ToString("C2");
+            storeCost = baseStoreCost * Mathf.Pow(storeMultiplier, storeCount);
+            buyNowPricing.text = "Buy " + storeCost.ToString("C2");
         }
     }
 

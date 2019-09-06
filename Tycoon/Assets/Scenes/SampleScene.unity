@@ -289,10 +289,25 @@ PrefabInstance:
       propertyPath: progressSlider
       value: 
       objectReference: {fileID: 1005856280}
+    - target: {fileID: 4529035069000116730, guid: e3736226bf029dc48842a627ffe623f9,
+        type: 3}
+      propertyPath: buyNowPricing
+      value: 
+      objectReference: {fileID: 1934373781}
+    - target: {fileID: 4529035069000116730, guid: e3736226bf029dc48842a627ffe623f9,
+        type: 3}
+      propertyPath: storeMultiplier
+      value: 1.05
+      objectReference: {fileID: 0}
     - target: {fileID: 4529035069770935862, guid: e3736226bf029dc48842a627ffe623f9,
         type: 3}
       propertyPath: m_Text
       value: Beer Stand
+      objectReference: {fileID: 0}
+    - target: {fileID: 4529035067954768305, guid: e3736226bf029dc48842a627ffe623f9,
+        type: 3}
+      propertyPath: m_Text
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4529035069257739405, guid: e3736226bf029dc48842a627ffe623f9,
         type: 3}
@@ -608,10 +623,25 @@ PrefabInstance:
       propertyPath: storeTimer
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 4529035069000116730, guid: e3736226bf029dc48842a627ffe623f9,
+        type: 3}
+      propertyPath: buyNowPricing
+      value: 
+      objectReference: {fileID: 1334137690}
+    - target: {fileID: 4529035069000116730, guid: e3736226bf029dc48842a627ffe623f9,
+        type: 3}
+      propertyPath: storeMultiplier
+      value: 1.05
+      objectReference: {fileID: 0}
     - target: {fileID: 4529035069770935862, guid: e3736226bf029dc48842a627ffe623f9,
         type: 3}
       propertyPath: m_Text
       value: Soda Stand
+      objectReference: {fileID: 0}
+    - target: {fileID: 4529035067954768305, guid: e3736226bf029dc48842a627ffe623f9,
+        type: 3}
+      propertyPath: m_Text
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4529035069257739405, guid: e3736226bf029dc48842a627ffe623f9,
         type: 3}
@@ -819,6 +849,21 @@ PrefabInstance:
       propertyPath: baseStoreProfit
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 4529035069000116730, guid: e3736226bf029dc48842a627ffe623f9,
+        type: 3}
+      propertyPath: storeCount
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4529035069000116730, guid: e3736226bf029dc48842a627ffe623f9,
+        type: 3}
+      propertyPath: storeMultiplier
+      value: 1.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 4529035069000116730, guid: e3736226bf029dc48842a627ffe623f9,
+        type: 3}
+      propertyPath: buyNowPricing
+      value: 
+      objectReference: {fileID: 1780565482}
     - target: {fileID: 4529035069770935862, guid: e3736226bf029dc48842a627ffe623f9,
         type: 3}
       propertyPath: m_FontData.m_Alignment
@@ -828,6 +873,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Text
       value: Lemonade Stand
+      objectReference: {fileID: 0}
+    - target: {fileID: 4529035067954768305, guid: e3736226bf029dc48842a627ffe623f9,
+        type: 3}
+      propertyPath: m_Text
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4529035069257739405, guid: e3736226bf029dc48842a627ffe623f9,
         type: 3}
@@ -870,6 +920,18 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 4529035069770935862, guid: e3736226bf029dc48842a627ffe623f9,
     type: 3}
   m_PrefabInstance: {fileID: 1713721540}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &817817355 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4529035069739737612, guid: e3736226bf029dc48842a627ffe623f9,
+    type: 3}
+  m_PrefabInstance: {fileID: 1080290029}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
@@ -1141,10 +1203,25 @@ PrefabInstance:
       propertyPath: baseStoreProfit
       value: 22
       objectReference: {fileID: 0}
+    - target: {fileID: 4529035069000116730, guid: e3736226bf029dc48842a627ffe623f9,
+        type: 3}
+      propertyPath: buyNowPricing
+      value: 
+      objectReference: {fileID: 817817355}
+    - target: {fileID: 4529035069000116730, guid: e3736226bf029dc48842a627ffe623f9,
+        type: 3}
+      propertyPath: storeMultiplier
+      value: 1.05
+      objectReference: {fileID: 0}
     - target: {fileID: 4529035069770935862, guid: e3736226bf029dc48842a627ffe623f9,
         type: 3}
       propertyPath: m_Text
       value: Poolside Bar
+      objectReference: {fileID: 0}
+    - target: {fileID: 4529035067954768305, guid: e3736226bf029dc48842a627ffe623f9,
+        type: 3}
+      propertyPath: m_Text
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4529035069257739405, guid: e3736226bf029dc48842a627ffe623f9,
         type: 3}
@@ -1200,11 +1277,47 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1271423919 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4529035069739737612, guid: e3736226bf029dc48842a627ffe623f9,
+    type: 3}
+  m_PrefabInstance: {fileID: 1713721540}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1312873179 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 4529035069770935862, guid: e3736226bf029dc48842a627ffe623f9,
     type: 3}
   m_PrefabInstance: {fileID: 467298853}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1334137690 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4529035069739737612, guid: e3736226bf029dc48842a627ffe623f9,
+    type: 3}
+  m_PrefabInstance: {fileID: 530300539}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1556811557 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4529035069739737612, guid: e3736226bf029dc48842a627ffe623f9,
+    type: 3}
+  m_PrefabInstance: {fileID: 2137439895}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
@@ -1448,6 +1561,16 @@ PrefabInstance:
       propertyPath: storeTimer
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 4529035069000116730, guid: e3736226bf029dc48842a627ffe623f9,
+        type: 3}
+      propertyPath: buyNowPricing
+      value: 
+      objectReference: {fileID: 1271423919}
+    - target: {fileID: 4529035069000116730, guid: e3736226bf029dc48842a627ffe623f9,
+        type: 3}
+      propertyPath: storeMultiplier
+      value: 1.05
+      objectReference: {fileID: 0}
     - target: {fileID: 4529035069770935862, guid: e3736226bf029dc48842a627ffe623f9,
         type: 3}
       propertyPath: m_FontData.m_Alignment
@@ -1457,6 +1580,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Text
       value: Iced Tea Stand
+      objectReference: {fileID: 0}
+    - target: {fileID: 4529035067954768305, guid: e3736226bf029dc48842a627ffe623f9,
+        type: 3}
+      propertyPath: m_Text
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4529035069257739405, guid: e3736226bf029dc48842a627ffe623f9,
         type: 3}
@@ -1476,6 +1604,30 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 597269757}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1780565482 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4529035069739737612, guid: e3736226bf029dc48842a627ffe623f9,
+    type: 3}
+  m_PrefabInstance: {fileID: 597269757}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1934373781 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4529035069739737612, guid: e3736226bf029dc48842a627ffe623f9,
+    type: 3}
+  m_PrefabInstance: {fileID: 467298853}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!224 &1978094934 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 4529035069000116735, guid: e3736226bf029dc48842a627ffe623f9,
@@ -1641,10 +1793,25 @@ PrefabInstance:
       propertyPath: baseStoreProfit
       value: 15
       objectReference: {fileID: 0}
+    - target: {fileID: 4529035069000116730, guid: e3736226bf029dc48842a627ffe623f9,
+        type: 3}
+      propertyPath: buyNowPricing
+      value: 
+      objectReference: {fileID: 1556811557}
+    - target: {fileID: 4529035069000116730, guid: e3736226bf029dc48842a627ffe623f9,
+        type: 3}
+      propertyPath: storeMultiplier
+      value: 1.05
+      objectReference: {fileID: 0}
     - target: {fileID: 4529035069770935862, guid: e3736226bf029dc48842a627ffe623f9,
         type: 3}
       propertyPath: m_Text
       value: Margarita Stand
+      objectReference: {fileID: 0}
+    - target: {fileID: 4529035067954768305, guid: e3736226bf029dc48842a627ffe623f9,
+        type: 3}
+      propertyPath: m_Text
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4529035069257739405, guid: e3736226bf029dc48842a627ffe623f9,
         type: 3}
