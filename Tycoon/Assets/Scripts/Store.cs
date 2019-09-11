@@ -18,6 +18,7 @@ public class Store : MonoBehaviour {
     public float baseStoreCost;
     public float storeMultiplier;
     public float baseStoreProfit;
+    public bool storeUnlock;
 
     public float storeTimer;
     private float currentTimer = 0;
@@ -28,7 +29,6 @@ public class Store : MonoBehaviour {
 
     void Start () {
         startTimer = false;
-        money.CurrentBalance = 5.00f;
         currentBalanceText.text = money.CurrentBalance.ToString("C2");
         storeCost = baseStoreCost;
         buyNowButtonPrice.text = "Buy " + storeCost.ToString("C2");
@@ -86,5 +86,8 @@ public class Store : MonoBehaviour {
             startTimer = true;
         }
     }
+
+    
+    
 
 }
