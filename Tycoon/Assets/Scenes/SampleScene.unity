@@ -144,6 +144,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Beer Stand
       objectReference: {fileID: 0}
+    - target: {fileID: 4529035069770935862, guid: e3736226bf029dc48842a627ffe623f9,
+        type: 3}
+      propertyPath: m_Text
+      value: Beer Stand
+      objectReference: {fileID: 0}
     - target: {fileID: 4529035069000116735, guid: e3736226bf029dc48842a627ffe623f9,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -202,22 +207,22 @@ PrefabInstance:
     - target: {fileID: 4529035069000116735, guid: e3736226bf029dc48842a627ffe623f9,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 397
+      value: 373
       objectReference: {fileID: 0}
     - target: {fileID: 4529035069000116735, guid: e3736226bf029dc48842a627ffe623f9,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 7
+      value: 21
       objectReference: {fileID: 0}
     - target: {fileID: 4529035069000116735, guid: e3736226bf029dc48842a627ffe623f9,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 90.34
+      value: 97.55
       objectReference: {fileID: 0}
     - target: {fileID: 4529035069000116735, guid: e3736226bf029dc48842a627ffe623f9,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 38.399994
+      value: 41.46
       objectReference: {fileID: 0}
     - target: {fileID: 4529035069000116735, guid: e3736226bf029dc48842a627ffe623f9,
         type: 3}
@@ -299,11 +304,6 @@ PrefabInstance:
       propertyPath: storeMultiplier
       value: 1.05
       objectReference: {fileID: 0}
-    - target: {fileID: 4529035069770935862, guid: e3736226bf029dc48842a627ffe623f9,
-        type: 3}
-      propertyPath: m_Text
-      value: Beer Stand
-      objectReference: {fileID: 0}
     - target: {fileID: 4529035067954768305, guid: e3736226bf029dc48842a627ffe623f9,
         type: 3}
       propertyPath: m_Text
@@ -319,6 +319,17 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4529035069108997784, guid: e3736226bf029dc48842a627ffe623f9,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.11779976
+      objectReference: {fileID: 0}
+    - target: {fileID: 1868304419595736089, guid: e3736226bf029dc48842a627ffe623f9,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 1539f172a35ab9245a748ba95a42389f,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e3736226bf029dc48842a627ffe623f9, type: 3}
 --- !u!1 &504573450
@@ -488,6 +499,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Soda Stand
       objectReference: {fileID: 0}
+    - target: {fileID: 4529035069770935862, guid: e3736226bf029dc48842a627ffe623f9,
+        type: 3}
+      propertyPath: m_Text
+      value: Soda Stand
+      objectReference: {fileID: 0}
     - target: {fileID: 4529035069000116735, guid: e3736226bf029dc48842a627ffe623f9,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -546,22 +562,22 @@ PrefabInstance:
     - target: {fileID: 4529035069000116735, guid: e3736226bf029dc48842a627ffe623f9,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 136
+      value: 91.18002
       objectReference: {fileID: 0}
     - target: {fileID: 4529035069000116735, guid: e3736226bf029dc48842a627ffe623f9,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -191
+      value: -192.8
       objectReference: {fileID: 0}
     - target: {fileID: 4529035069000116735, guid: e3736226bf029dc48842a627ffe623f9,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 90.34
+      value: 97.55
       objectReference: {fileID: 0}
     - target: {fileID: 4529035069000116735, guid: e3736226bf029dc48842a627ffe623f9,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 38.399994
+      value: 41.46
       objectReference: {fileID: 0}
     - target: {fileID: 4529035069000116735, guid: e3736226bf029dc48842a627ffe623f9,
         type: 3}
@@ -633,11 +649,6 @@ PrefabInstance:
       propertyPath: storeMultiplier
       value: 1.05
       objectReference: {fileID: 0}
-    - target: {fileID: 4529035069770935862, guid: e3736226bf029dc48842a627ffe623f9,
-        type: 3}
-      propertyPath: m_Text
-      value: Soda Stand
-      objectReference: {fileID: 0}
     - target: {fileID: 4529035067954768305, guid: e3736226bf029dc48842a627ffe623f9,
         type: 3}
       propertyPath: m_Text
@@ -653,6 +664,17 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4529035069108997784, guid: e3736226bf029dc48842a627ffe623f9,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.11779976
+      objectReference: {fileID: 0}
+    - target: {fileID: 1868304419595736089, guid: e3736226bf029dc48842a627ffe623f9,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 743469bbd25dc6d438be75823ec6ab03,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e3736226bf029dc48842a627ffe623f9, type: 3}
 --- !u!224 &530300540 stripped
@@ -707,6 +729,16 @@ PrefabInstance:
     - target: {fileID: 4529035069000116734, guid: e3736226bf029dc48842a627ffe623f9,
         type: 3}
       propertyPath: m_Name
+      value: Lemonade Stand
+      objectReference: {fileID: 0}
+    - target: {fileID: 4529035069770935862, guid: e3736226bf029dc48842a627ffe623f9,
+        type: 3}
+      propertyPath: m_FontData.m_Alignment
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4529035069770935862, guid: e3736226bf029dc48842a627ffe623f9,
+        type: 3}
+      propertyPath: m_Text
       value: Lemonade Stand
       objectReference: {fileID: 0}
     - target: {fileID: 4529035069000116735, guid: e3736226bf029dc48842a627ffe623f9,
@@ -767,22 +799,22 @@ PrefabInstance:
     - target: {fileID: 4529035069000116735, guid: e3736226bf029dc48842a627ffe623f9,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 134.79999
+      value: 89.89002
       objectReference: {fileID: 0}
     - target: {fileID: 4529035069000116735, guid: e3736226bf029dc48842a627ffe623f9,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 7
+      value: 21
       objectReference: {fileID: 0}
     - target: {fileID: 4529035069000116735, guid: e3736226bf029dc48842a627ffe623f9,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 90.34
+      value: 97.55
       objectReference: {fileID: 0}
     - target: {fileID: 4529035069000116735, guid: e3736226bf029dc48842a627ffe623f9,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 38.399994
+      value: 41.46
       objectReference: {fileID: 0}
     - target: {fileID: 4529035069000116735, guid: e3736226bf029dc48842a627ffe623f9,
         type: 3}
@@ -864,16 +896,6 @@ PrefabInstance:
       propertyPath: buyNowPricing
       value: 
       objectReference: {fileID: 1780565482}
-    - target: {fileID: 4529035069770935862, guid: e3736226bf029dc48842a627ffe623f9,
-        type: 3}
-      propertyPath: m_FontData.m_Alignment
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 4529035069770935862, guid: e3736226bf029dc48842a627ffe623f9,
-        type: 3}
-      propertyPath: m_Text
-      value: Lemonade Stand
-      objectReference: {fileID: 0}
     - target: {fileID: 4529035067954768305, guid: e3736226bf029dc48842a627ffe623f9,
         type: 3}
       propertyPath: m_Text
@@ -889,6 +911,22 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4529035069108997784, guid: e3736226bf029dc48842a627ffe623f9,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.11779976
+      objectReference: {fileID: 0}
+    - target: {fileID: 3632728151335164598, guid: e3736226bf029dc48842a627ffe623f9,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1868304419595736089, guid: e3736226bf029dc48842a627ffe623f9,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 70afc7dda532a90498c36f4a38b60699,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e3736226bf029dc48842a627ffe623f9, type: 3}
 --- !u!114 &613010211 stripped
@@ -1068,6 +1106,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Poolside Bar
       objectReference: {fileID: 0}
+    - target: {fileID: 4529035069770935862, guid: e3736226bf029dc48842a627ffe623f9,
+        type: 3}
+      propertyPath: m_Text
+      value: Poolside Bar
+      objectReference: {fileID: 0}
     - target: {fileID: 4529035069000116735, guid: e3736226bf029dc48842a627ffe623f9,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1126,22 +1169,22 @@ PrefabInstance:
     - target: {fileID: 4529035069000116735, guid: e3736226bf029dc48842a627ffe623f9,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 396
+      value: 371.92
       objectReference: {fileID: 0}
     - target: {fileID: 4529035069000116735, guid: e3736226bf029dc48842a627ffe623f9,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -191.1
+      value: -192.9
       objectReference: {fileID: 0}
     - target: {fileID: 4529035069000116735, guid: e3736226bf029dc48842a627ffe623f9,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 90.34
+      value: 97.55
       objectReference: {fileID: 0}
     - target: {fileID: 4529035069000116735, guid: e3736226bf029dc48842a627ffe623f9,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 38.399994
+      value: 41.46
       objectReference: {fileID: 0}
     - target: {fileID: 4529035069000116735, guid: e3736226bf029dc48842a627ffe623f9,
         type: 3}
@@ -1213,11 +1256,6 @@ PrefabInstance:
       propertyPath: storeMultiplier
       value: 1.05
       objectReference: {fileID: 0}
-    - target: {fileID: 4529035069770935862, guid: e3736226bf029dc48842a627ffe623f9,
-        type: 3}
-      propertyPath: m_Text
-      value: Poolside Bar
-      objectReference: {fileID: 0}
     - target: {fileID: 4529035067954768305, guid: e3736226bf029dc48842a627ffe623f9,
         type: 3}
       propertyPath: m_Text
@@ -1233,6 +1271,17 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4529035069108997784, guid: e3736226bf029dc48842a627ffe623f9,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.11779976
+      objectReference: {fileID: 0}
+    - target: {fileID: 1868304419595736089, guid: e3736226bf029dc48842a627ffe623f9,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 1b5bafca3bbe5d548aaff1629ee25777,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e3736226bf029dc48842a627ffe623f9, type: 3}
 --- !u!224 &1080290030 stripped
@@ -1359,7 +1408,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 151}
+  m_AnchoredPosition: {x: 0, y: 159.43}
   m_SizeDelta: {x: 894.4, y: 206}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1565443359
@@ -1414,6 +1463,16 @@ PrefabInstance:
     - target: {fileID: 4529035069000116734, guid: e3736226bf029dc48842a627ffe623f9,
         type: 3}
       propertyPath: m_Name
+      value: Iced Tea Stand
+      objectReference: {fileID: 0}
+    - target: {fileID: 4529035069770935862, guid: e3736226bf029dc48842a627ffe623f9,
+        type: 3}
+      propertyPath: m_FontData.m_Alignment
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4529035069770935862, guid: e3736226bf029dc48842a627ffe623f9,
+        type: 3}
+      propertyPath: m_Text
       value: Iced Tea Stand
       objectReference: {fileID: 0}
     - target: {fileID: 4529035069000116735, guid: e3736226bf029dc48842a627ffe623f9,
@@ -1474,22 +1533,22 @@ PrefabInstance:
     - target: {fileID: 4529035069000116735, guid: e3736226bf029dc48842a627ffe623f9,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 134.79999
+      value: 89.89002
       objectReference: {fileID: 0}
     - target: {fileID: 4529035069000116735, guid: e3736226bf029dc48842a627ffe623f9,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -92
+      value: -85.9
       objectReference: {fileID: 0}
     - target: {fileID: 4529035069000116735, guid: e3736226bf029dc48842a627ffe623f9,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 90.34
+      value: 97.55
       objectReference: {fileID: 0}
     - target: {fileID: 4529035069000116735, guid: e3736226bf029dc48842a627ffe623f9,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 38.399994
+      value: 41.46
       objectReference: {fileID: 0}
     - target: {fileID: 4529035069000116735, guid: e3736226bf029dc48842a627ffe623f9,
         type: 3}
@@ -1571,16 +1630,6 @@ PrefabInstance:
       propertyPath: storeMultiplier
       value: 1.05
       objectReference: {fileID: 0}
-    - target: {fileID: 4529035069770935862, guid: e3736226bf029dc48842a627ffe623f9,
-        type: 3}
-      propertyPath: m_FontData.m_Alignment
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 4529035069770935862, guid: e3736226bf029dc48842a627ffe623f9,
-        type: 3}
-      propertyPath: m_Text
-      value: Iced Tea Stand
-      objectReference: {fileID: 0}
     - target: {fileID: 4529035067954768305, guid: e3736226bf029dc48842a627ffe623f9,
         type: 3}
       propertyPath: m_Text
@@ -1596,6 +1645,17 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4529035069108997784, guid: e3736226bf029dc48842a627ffe623f9,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.11779976
+      objectReference: {fileID: 0}
+    - target: {fileID: 1868304419595736089, guid: e3736226bf029dc48842a627ffe623f9,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: a613758da9d8ceb46827fa89231178d9,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e3736226bf029dc48842a627ffe623f9, type: 3}
 --- !u!224 &1729989809 stripped
@@ -1658,6 +1718,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Margarita Stand
       objectReference: {fileID: 0}
+    - target: {fileID: 4529035069770935862, guid: e3736226bf029dc48842a627ffe623f9,
+        type: 3}
+      propertyPath: m_Text
+      value: Margarita Stand
+      objectReference: {fileID: 0}
     - target: {fileID: 4529035069000116735, guid: e3736226bf029dc48842a627ffe623f9,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1716,22 +1781,22 @@ PrefabInstance:
     - target: {fileID: 4529035069000116735, guid: e3736226bf029dc48842a627ffe623f9,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 397
+      value: 373.00003
       objectReference: {fileID: 0}
     - target: {fileID: 4529035069000116735, guid: e3736226bf029dc48842a627ffe623f9,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -92.1
+      value: -86.01
       objectReference: {fileID: 0}
     - target: {fileID: 4529035069000116735, guid: e3736226bf029dc48842a627ffe623f9,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 90.34
+      value: 97.55
       objectReference: {fileID: 0}
     - target: {fileID: 4529035069000116735, guid: e3736226bf029dc48842a627ffe623f9,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 38.399994
+      value: 41.46
       objectReference: {fileID: 0}
     - target: {fileID: 4529035069000116735, guid: e3736226bf029dc48842a627ffe623f9,
         type: 3}
@@ -1803,11 +1868,6 @@ PrefabInstance:
       propertyPath: storeMultiplier
       value: 1.05
       objectReference: {fileID: 0}
-    - target: {fileID: 4529035069770935862, guid: e3736226bf029dc48842a627ffe623f9,
-        type: 3}
-      propertyPath: m_Text
-      value: Margarita Stand
-      objectReference: {fileID: 0}
     - target: {fileID: 4529035067954768305, guid: e3736226bf029dc48842a627ffe623f9,
         type: 3}
       propertyPath: m_Text
@@ -1823,6 +1883,17 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4529035069108997784, guid: e3736226bf029dc48842a627ffe623f9,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.11779976
+      objectReference: {fileID: 0}
+    - target: {fileID: 1868304419595736089, guid: e3736226bf029dc48842a627ffe623f9,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: e3fd2f000e2628a4e953ec7835583b93,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e3736226bf029dc48842a627ffe623f9, type: 3}
 --- !u!224 &2137439896 stripped
